@@ -1,5 +1,5 @@
 # This is Enixnel v0.1 (master build)
-The Enixnel kernel is made by literally no one, instead it is made by AI. The joke is since ur mom likes to vibecode so much, we made a vibecoded kernel, hence the name **Enix**nel
+The Enixnel kernel is made by literally no one, instead it is made by AI. The joke is since enix doesnt likes to vibecode so much, we made a vibecoded kernel, hence the name **Enix**nel
 
 This was made using GPT 5.1 (medium reasoning level), there is no license. Do whatever the fuck you want with it
 
