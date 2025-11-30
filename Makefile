@@ -52,10 +52,11 @@ iso: all
 	echo '  multiboot /boot/enixnel.elf' >> iso/boot/grub/grub.cfg
 	echo '  boot' >> iso/boot/grub/grub.cfg
 	echo '}' >> iso/boot/grub/grub.cfg
-	grub-mkrescue -o $(ISO) iso
+	grub-mkrescue -o $(ISO) iso -V enixnel
 
 run: iso
 	qemu-system-i386 -cdrom $(ISO)
 
 clean:
+
 	rm -rf $(BUILDDIR) iso $(ISO)
